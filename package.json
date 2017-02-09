@@ -1,6 +1,6 @@
 {
   "name": "nkdash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Usefule JS util methods",
   "main": "distribution/index.js",
   "scripts": {
@@ -33,6 +33,7 @@
     "mocha": "^3.2.0"
   },
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "react-scroll": "^1.4.5"
   }
 }

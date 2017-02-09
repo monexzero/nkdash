@@ -11,4 +11,4 @@ var _isNotEmptyArray3 = _interopRequireDefault(_isNotEmptyArray2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var isNotEmptyArray = exports.isNotEmptyArray = isNotEmptyArray;
+var isNotEmptyArray = exports.isNotEmptyArray = _isNotEmptyArray3.default;
