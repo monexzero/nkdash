@@ -1,5 +1,5 @@
 import 'lodash';
 
-export const isNotEmptyArray = (array) => {
+export default function _isNotEmptyArray(array){
   return _.isArray(array) && !_.isEmpty(array);
 }
