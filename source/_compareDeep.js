@@ -17,7 +17,7 @@ export default function _compareDeep(v1, v2) {
 
     let noErr = true;
     _.each(array1, function(value, i){
-      if(!compareDeep(value, array2[i]))
+      if(!_compareDeep(value, array2[i]))
         noErr = false;
     })
     return noErr;
@@ -34,7 +34,7 @@ export default function _compareDeep(v1, v2) {
 
     let noErr = true;
     _.each(v1, function(value, key){
-      if(!compareDeep(value, v2[key]))
+      if(!_compareDeep(value, v2[key]))
         noErr = false;
     })
     return noErr;

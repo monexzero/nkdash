@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 export default function _ellipsisInt(val) {
   if(!_.isInteger(val)) {
     return null;
@@ -14,6 +16,11 @@ export default function _ellipsisInt(val) {
     if(val % 1000 === 0) {
       return (val / 1000) + ' k';
     }
+
+    if(val >= 999950) {
+      return '1 m';
+    }
+
     return (val / 1000).toFixed(1) + ' k';
   }else if(val < 1000000000){
 
@@ -24,6 +31,11 @@ export default function _ellipsisInt(val) {
     if(val % 1000000 === 0) {
       return (val / 1000000) + ' m';
     }
+
+    if(val >= 999950000) {
+      return '1 b';
+    }
+
     return (val / 1000000).toFixed(1) + ' m';
   }else {
 

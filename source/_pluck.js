@@ -1,5 +1,8 @@
+import _ from 'lodash';
+
 export default function _pluck(collection, name) {
-  if(!_.isArray(collection)) {
+
+  if(!_.isArray(collection) || !_.isString(name)) {
     return null;
   }
 

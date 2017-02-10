@@ -1,4 +1,6 @@
-export default function _autoScroll(selector, duration=1200) => {
+import Scroll from 'react-scroll';
+
+export default function _autoScroll(selector, duration=1200) {
   const target   = document.querySelector(selector);
   if(!target) {
     return;

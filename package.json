@@ -1,12 +1,11 @@
 {
   "name": "nkdash",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Usefule JS util methods",
   "main": "distribution/index.js",
   "scripts": {
     "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
-    "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*.spec.js')",
-    "prepublish": "npm run build"
+    "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*.spec.js')"
   },
   "repository": {
     "type": "git",
@@ -34,6 +33,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
+    "moment": "^2.17.1",
     "react-scroll": "^1.4.5"
   }
 }
