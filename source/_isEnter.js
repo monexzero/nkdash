@@ -1,3 +1,3 @@
 export default function _isEnter(keycode){
-  return keyCode == 13;
+  return keycode == 13;
 }
