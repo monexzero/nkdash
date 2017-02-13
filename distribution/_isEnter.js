@@ -5,5 +5,5 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = _isEnter;
 function _isEnter(keycode) {
-  return keyCode == 13;
+  return keycode == 13;
 }
