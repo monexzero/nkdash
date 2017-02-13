@@ -3,7 +3,7 @@ Nkdash
 [![Build Status](https://travis-ci.org/gnk-sato-hotto/nkdash.svg?branch=master)](https://travis-ci.org/gnk-sato-hotto/nkdash)  
 Nkdash is a javascript library that includes very useful methods.
 
-# Supported node version
+# Supported node versions
 - 7
 - 6
 - 5
