@@ -25,16 +25,16 @@ describe('ellipsisInt', () => {
     _ellipsisInt(999949).should.equal('999.9 k');
   });
   it('999950', () => {
-    _ellipsisInt(999950).should.equal('1 m');
+    _ellipsisInt(999950).should.equal('1 M');
   });
 
   it('1000000', () => {
-    _ellipsisInt(1000000).should.equal('1 m');
+    _ellipsisInt(1000000).should.equal('1 M');
   });
   it('999949999', () => {
-    _ellipsisInt(999949999).should.equal('999.9 m');
+    _ellipsisInt(999949999).should.equal('999.9 M');
   });
   it('999950000', () => {
-    _ellipsisInt(999950000).should.equal('1 b');
+    _ellipsisInt(999950000).should.equal('1 B');
   });
 })
