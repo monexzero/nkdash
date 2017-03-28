@@ -87,6 +87,15 @@ console.log(isNumber('09')); // => false
 console.log(isNumber('1a')); // => false
 ```
 
+* isFullWidth
+
+```
+import {isFullWidth} from 'nkdash';
+
+console.log(isFullWidth('全'));    // => true
+console.log(isFullWidth('1')); // => false
+```
+
 * dateList
 
 ```

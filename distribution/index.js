@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isNotEmptyArray = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.isValidEmail = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isAscii = exports.isEnter = exports.isDate = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isNotEmptyArray = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isAscii = exports.isEnter = exports.isDate = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
@@ -69,6 +69,10 @@ var _moneyFormat2 = require('./_moneyFormat');
 
 var _moneyFormat3 = _interopRequireDefault(_moneyFormat2);
 
+var _isFullWidth2 = require('./_isFullWidth');
+
+var _isFullWidth3 = _interopRequireDefault(_isFullWidth2);
+
 var _isValidEmail2 = require('./_isValidEmail');
 
 var _isValidEmail3 = _interopRequireDefault(_isValidEmail2);
@@ -111,6 +115,7 @@ var compareDeep = exports.compareDeep = _compareDeep3.default;
 var ellipsisInt = exports.ellipsisInt = _ellipsisInt3.default;
 var ellipsisStr = exports.ellipsisStr = _ellipsisStr3.default;
 var moneyFormat = exports.moneyFormat = _moneyFormat3.default;
+var isFullWidth = exports.isFullWidth = _isFullWidth3.default;
 var isValidEmail = exports.isValidEmail = _isValidEmail3.default;
 var isNotEmptyStr = exports.isNotEmptyStr = _isNotEmptyStr3.default;
 var containsEmoji = exports.containsEmoji = _containsEmoji3.default;

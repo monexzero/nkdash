@@ -6,13 +6,14 @@ describe('isFullWidth', () => {
   it('全角ひら: あ', () => {
     _isFullWidth('あ').should.equal(true);
   });
-
   it('全角カナ: ン', () => {
     _isFullWidth('ン').should.equal(true);
   });
-
   it('全角漢字: 家', () => {
     _isFullWidth('家').should.equal(true);
+  });
+  it('全角複数: あわアワ日', () => {
+    _isFullWidth('あわアワ日').should.equal(true);
   });
 
   it('半角英: a', () => {
@@ -30,5 +31,9 @@ describe('isFullWidth', () => {
   it('半角記号: !', () => {
     _isFullWidth('!').should.equal(false);
   });
+  it('全角半角混合: あいう1', () => {
+    _isFullWidth('あいう1').should.equal(false);
+  });
+
 
 })
