@@ -220,6 +220,17 @@ console.log(containsSpace('contains　full-width-space')); // => true
 console.log(containsSpace('not contains space')); // => false
 ```
 
+* isEmptyArray
+
+```
+import {isEmptyArray} from 'nkdash';
+
+console.log(isEmptyArray([]));   // => true
+console.log(isEmptyArray([1]));  // => false
+console.log(isEmptyArray(120));  // => false
+console.log(isEmptyArray(true)); // => false
+```
+
 * isNotEmptyArray
 
 ```
