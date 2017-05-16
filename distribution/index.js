@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isNotEmptyArray = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isAscii = exports.isEnter = exports.isDate = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isNotEmptyArray = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
@@ -20,6 +20,10 @@ var _isEnter3 = _interopRequireDefault(_isEnter2);
 var _isAscii2 = require('./_isAscii');
 
 var _isAscii3 = _interopRequireDefault(_isAscii2);
+
+var _getDiff2 = require('./_getDiff');
+
+var _getDiff3 = _interopRequireDefault(_getDiff2);
 
 var _xDaysAgo2 = require('./_xDaysAgo');
 
@@ -107,6 +111,7 @@ var pluck = exports.pluck = _pluck3.default;
 var isDate = exports.isDate = _isDate3.default;
 var isEnter = exports.isEnter = _isEnter3.default;
 var isAscii = exports.isAscii = _isAscii3.default;
+var getDiff = exports.getDiff = _getDiff3.default;
 var xDaysAgo = exports.xDaysAgo = _xDaysAgo3.default;
 var isNumber = exports.isNumber = _isNumber3.default;
 var dateList = exports.dateList = _dateList3.default;

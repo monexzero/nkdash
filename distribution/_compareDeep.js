@@ -21,38 +21,30 @@ function _compareDeep(v1, v2) {
 
   // array の場合
   if (_lodash2.default.isArray(v1)) {
-    var _ret = function () {
-      if (v1.length != v2.length) return {
-          v: false
-        };
-      // ソート
-      var array1 = _lodash2.default.sortBy(v1);
-      // ソート
-      var array2 = _lodash2.default.sortBy(v2);
+    if (v1.length != v2.length) return false;
+    // ソート
+    var array1 = _lodash2.default.sortBy(v1);
+    // ソート
+    var array2 = _lodash2.default.sortBy(v2);
 
-      var noErr = true;
-      _lodash2.default.each(array1, function (value, i) {
-        if (!_compareDeep(value, array2[i])) noErr = false;
-      });
-      return {
-        v: noErr
-      };
+    var noErr = true;
+    _lodash2.default.each(array1, function (value, i) {
+      if (!_compareDeep(value, array2[i])) noErr = false;
+    });
+    return noErr;
 
-      // オブジェクトの場合
-    }();
-
-    if ((typeof _ret === 'undefined' ? 'undefined' : _typeof(_ret)) === "object") return _ret.v;
+    // オブジェクトの場合
   } else if (_lodash2.default.isObject(v1)) {
     // key の length が違うか, keys に差異があれば false
     if (_lodash2.default.keys(v1).length != _lodash2.default.keys(v2).length || _lodash2.default.difference(_lodash2.default.keys(v1), _lodash2.default.keys(v2)).length > 0) {
       return false;
     }
 
-    var noErr = true;
+    var _noErr = true;
     _lodash2.default.each(v1, function (value, key) {
-      if (!_compareDeep(value, v2[key])) noErr = false;
+      if (!_compareDeep(value, v2[key])) _noErr = false;
     });
-    return noErr;
+    return _noErr;
 
     // その他は普通に比較
   } else {
