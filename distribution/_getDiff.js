@@ -20,7 +20,7 @@ function _getDiff(array) {
     return;
   }
 
-  var previous = 0;
+  var previous = _lodash2.default.head(_lodash2.default.compact(array));
   return _lodash2.default.map(array, function (val) {
     if (!(0, _isNumber3.default)(val)) {
       return null;

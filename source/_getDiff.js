@@ -6,7 +6,7 @@ export default function _getDiff(array) {
     return;
   }
 
-  let previous = 0
+  let previous = _.head(_.compact(array));
   return _.map(array, (val) => {
     if(!_isNumber(val)) {
       return null;
