@@ -119,7 +119,6 @@ import {randomStr} from 'nkdash';
 
 const strLength = 5;
 console.log(randomStr(strLength)); // => x80k9
-// str range => 00000... ~ zzzzz...
 ```
 
 * currentUrl
