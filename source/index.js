@@ -23,6 +23,7 @@ import _containsEmoji   from './_containsEmoji';
 import _containsSpace   from './_containsSpace';
 import _isNotEmptyArray from './_isNotEmptyArray';
 import _containsSpecialChar from './_containsSpecialChar';
+import _containsMark from './_containsMark';
 
 export const pluck      = _pluck;
 export const isDate     = _isDate;
@@ -44,6 +45,7 @@ export const moneyFormat     = _moneyFormat;
 export const isFullWidth     = _isFullWidth;
 export const isValidEmail    = _isValidEmail;
 export const isEmptyArray    = _isEmptyArray;
+export const containsMark    = _containsMark;
 export const isNotEmptyStr   = _isNotEmptyStr;
 export const containsEmoji   = _containsEmoji;
 export const containsSpace   = _containsSpace;

@@ -12,6 +12,6 @@ var _lodash2 = _interopRequireDefault(_lodash);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _containsSpecialChar(str) {
-  var spChars = "!@#$%^&*()+=-[]\\\';,./{}|\":<>?".split("");
+  var spChars = "!@#$%^&*\\\';,./{}|\":?".split("");
   return !_lodash2.default.isEmpty(_lodash2.default.intersection(spChars, str.split('')));
 }
