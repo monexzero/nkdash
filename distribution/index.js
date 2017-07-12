@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isNotEmptyArray = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isNotEmptyArray = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
@@ -105,6 +105,10 @@ var _containsSpecialChar2 = require('./_containsSpecialChar');
 
 var _containsSpecialChar3 = _interopRequireDefault(_containsSpecialChar2);
 
+var _containsMark2 = require('./_containsMark');
+
+var _containsMark3 = _interopRequireDefault(_containsMark2);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var pluck = exports.pluck = _pluck3.default;
@@ -127,6 +131,7 @@ var moneyFormat = exports.moneyFormat = _moneyFormat3.default;
 var isFullWidth = exports.isFullWidth = _isFullWidth3.default;
 var isValidEmail = exports.isValidEmail = _isValidEmail3.default;
 var isEmptyArray = exports.isEmptyArray = _isEmptyArray3.default;
+var containsMark = exports.containsMark = _containsMark3.default;
 var isNotEmptyStr = exports.isNotEmptyStr = _isNotEmptyStr3.default;
 var containsEmoji = exports.containsEmoji = _containsEmoji3.default;
 var containsSpace = exports.containsSpace = _containsSpace3.default;
