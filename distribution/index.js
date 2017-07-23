@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.toRGB = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.hasValue = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.toRGB = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
@@ -40,6 +40,10 @@ var _isNumber3 = _interopRequireDefault(_isNumber2);
 var _dateList2 = require('./_dateList');
 
 var _dateList3 = _interopRequireDefault(_dateList2);
+
+var _hasValue2 = require('./_hasValue');
+
+var _hasValue3 = _interopRequireDefault(_hasValue2);
 
 var _randomStr2 = require('./_randomStr');
 
@@ -132,6 +136,7 @@ var getDiff = exports.getDiff = _getDiff3.default;
 var xDaysAgo = exports.xDaysAgo = _xDaysAgo3.default;
 var isNumber = exports.isNumber = _isNumber3.default;
 var dateList = exports.dateList = _dateList3.default;
+var hasValue = exports.hasValue = _hasValue3.default;
 var xWeeksAgo = exports.xWeeksAgo = _xWeeksAgo3.default;
 var xYearsAgo = exports.xYearsAgo = _xYearsAgo3.default;
 var randomStr = exports.randomStr = _randomStr3.default;
