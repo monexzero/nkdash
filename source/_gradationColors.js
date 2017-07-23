@@ -22,5 +22,5 @@ export default function _gradationColors(from, to, count) {
     };
     return _toColorCode(rgb);
   })
-  return _.flatten([from, gradations, to]);
+  return _.flatten([_toColorCode(from), gradations, _toColorCode(to)]);
 }

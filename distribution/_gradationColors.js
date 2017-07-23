@@ -39,5 +39,5 @@ function _gradationColors(from, to, count) {
     };
     return (0, _toColorCode3.default)(rgb);
   });
-  return _lodash2.default.flatten([from, gradations, to]);
+  return _lodash2.default.flatten([(0, _toColorCode3.default)(from), gradations, (0, _toColorCode3.default)(to)]);
 }
