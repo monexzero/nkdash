@@ -15,19 +15,22 @@ var _isNumber3 = _interopRequireDefault(_isNumber2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _getDiff(array) {
+function _getDiff(array, criterion) {
   if (!_lodash2.default.isArray(array)) {
     return;
   }
+  var noCriterion = !criterion;
 
-  var previous = _lodash2.default.head(_lodash2.default.compact(array));
+  criterion = criterion || _lodash2.default.head(_lodash2.default.compact(array));
   return _lodash2.default.map(array, function (val) {
     if (!(0, _isNumber3.default)(val)) {
       return null;
     }
 
-    var diff = val - previous;
-    previous = val;
+    var diff = val - criterion;
+    if (noCriterion) {
+      criterion = val;
+    }
     return diff;
   });
 }

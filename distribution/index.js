@@ -3,11 +3,15 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isNotEmptyArray = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.toRGB = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
 var _pluck3 = _interopRequireDefault(_pluck2);
+
+var _toRGB2 = require('./_toRGB');
+
+var _toRGB3 = _interopRequireDefault(_toRGB2);
 
 var _isDate2 = require('./_isDate');
 
@@ -77,6 +81,10 @@ var _isFullWidth2 = require('./_isFullWidth');
 
 var _isFullWidth3 = _interopRequireDefault(_isFullWidth2);
 
+var _toColorCode2 = require('./_toColorCode');
+
+var _toColorCode3 = _interopRequireDefault(_toColorCode2);
+
 var _isValidEmail2 = require('./_isValidEmail');
 
 var _isValidEmail3 = _interopRequireDefault(_isValidEmail2);
@@ -84,6 +92,10 @@ var _isValidEmail3 = _interopRequireDefault(_isValidEmail2);
 var _isEmptyArray2 = require('./_isEmptyArray');
 
 var _isEmptyArray3 = _interopRequireDefault(_isEmptyArray2);
+
+var _containsMark2 = require('./_containsMark');
+
+var _containsMark3 = _interopRequireDefault(_containsMark2);
 
 var _isNotEmptyStr2 = require('./_isNotEmptyStr');
 
@@ -101,17 +113,18 @@ var _isNotEmptyArray2 = require('./_isNotEmptyArray');
 
 var _isNotEmptyArray3 = _interopRequireDefault(_isNotEmptyArray2);
 
+var _gradationColors2 = require('./_gradationColors');
+
+var _gradationColors3 = _interopRequireDefault(_gradationColors2);
+
 var _containsSpecialChar2 = require('./_containsSpecialChar');
 
 var _containsSpecialChar3 = _interopRequireDefault(_containsSpecialChar2);
 
-var _containsMark2 = require('./_containsMark');
-
-var _containsMark3 = _interopRequireDefault(_containsMark2);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var pluck = exports.pluck = _pluck3.default;
+var toRGB = exports.toRGB = _toRGB3.default;
 var isDate = exports.isDate = _isDate3.default;
 var isEnter = exports.isEnter = _isEnter3.default;
 var isAscii = exports.isAscii = _isAscii3.default;
@@ -124,6 +137,7 @@ var xYearsAgo = exports.xYearsAgo = _xYearsAgo3.default;
 var randomStr = exports.randomStr = _randomStr3.default;
 var currentUrl = exports.currentUrl = _currentUrl3.default;
 var autoScroll = exports.autoScroll = _autoScroll3.default;
+var toColorCode = exports.toColorCode = _toColorCode3.default;
 var compareDeep = exports.compareDeep = _compareDeep3.default;
 var ellipsisInt = exports.ellipsisInt = _ellipsisInt3.default;
 var ellipsisStr = exports.ellipsisStr = _ellipsisStr3.default;
@@ -135,5 +149,6 @@ var containsMark = exports.containsMark = _containsMark3.default;
 var isNotEmptyStr = exports.isNotEmptyStr = _isNotEmptyStr3.default;
 var containsEmoji = exports.containsEmoji = _containsEmoji3.default;
 var containsSpace = exports.containsSpace = _containsSpace3.default;
+var gradationColors = exports.gradationColors = _gradationColors3.default;
 var isNotEmptyArray = exports.isNotEmptyArray = _isNotEmptyArray3.default;
 var containsSpecialChar = exports.containsSpecialChar = _containsSpecialChar3.default;
