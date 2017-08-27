@@ -1,6 +1,6 @@
 {
   "name": "nkdash",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Usefule JS util methods",
   "main": "distribution/index.js",
   "scripts": {

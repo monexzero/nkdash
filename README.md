@@ -251,6 +251,90 @@ console.log(containsSpecialChar('hello world!')); // => true
 console.log(containsSpecialChar('hello"world')); // => true
 ```
 
+* containsMark
+
+```
+import {containsMark} from 'nkdash';
+
+// marks => !@#$%^&*\\\'\"?
+console.log(containsMark('#hashtag')); // => true
+console.log(containsMark('hello world')); // => false
+```
+
+* gradationColors
+
+```
+import {gradationColors} from 'nkdash';
+
+const from  = "#000000";
+const to    = "#ffffff";
+const count = 4;
+console.log(gradationColors(from, to, count));
+// => ["#000000", "#3f3f3f", "#7f7f7f", "#ffffff"]
+```
+
+* hasValue
+
+```
+import {hasValue} from 'nkdash';
+
+// if a variable is false or null or undefined, return false.
+console.log(hasValue(false)); => false
+console.log(hasValue(0));  => true
+console.log(hasValue([])); => true
+console.log(hasValue("")); => true
+console.log(hasValue("hello")); => true
+```
+
+
+* isEdge
+
+```
+// return true if ua includes "edge"
+```
+
+* isChrome
+
+```
+// return true if not edge and ua includes "chrome"
+```
+
+* isSafari
+
+```
+// return true if not chrome and ua includes "safari"
+```
+
+* isFireFox
+
+```
+// return true if ua includes "firefox"
+```
+
+* isTabletOrMobile
+
+```
+// return true if ua.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i)
+```
+
+* toColorCode
+
+```
+import {toColorCode} from 'nkdash';
+
+const input = {r: 144, g: 16, b: 77};
+console.log(toColorCode(input)) // "#90104d"
+```
+
+* toRGB
+
+```
+import {toRGB} from 'nkdash';
+
+const input = "#90104d";
+console.log(toRGB(input)) // {r: 144, g: 16, b: 77};
+```
+
 
 # License
   This software is released under the MIT License, see LICENSE.txt.

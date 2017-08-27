@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.hasValue = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.getDiff = exports.isAscii = exports.isEnter = exports.isDate = exports.toRGB = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.isFireFox = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.hasValue = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isSafari = exports.isChrome = exports.getDiff = exports.isAscii = exports.isEnter = exports.isEdge = exports.isDate = exports.toRGB = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
@@ -17,6 +17,10 @@ var _isDate2 = require('./_isDate');
 
 var _isDate3 = _interopRequireDefault(_isDate2);
 
+var _isEdge2 = require('./_isEdge');
+
+var _isEdge3 = _interopRequireDefault(_isEdge2);
+
 var _isEnter2 = require('./_isEnter');
 
 var _isEnter3 = _interopRequireDefault(_isEnter2);
@@ -28,6 +32,14 @@ var _isAscii3 = _interopRequireDefault(_isAscii2);
 var _getDiff2 = require('./_getDiff');
 
 var _getDiff3 = _interopRequireDefault(_getDiff2);
+
+var _isSafari2 = require('./_isSafari');
+
+var _isSafari3 = _interopRequireDefault(_isSafari2);
+
+var _isChrome2 = require('./_isChrome');
+
+var _isChrome3 = _interopRequireDefault(_isChrome2);
 
 var _xDaysAgo2 = require('./_xDaysAgo');
 
@@ -44,6 +56,10 @@ var _dateList3 = _interopRequireDefault(_dateList2);
 var _hasValue2 = require('./_hasValue');
 
 var _hasValue3 = _interopRequireDefault(_hasValue2);
+
+var _isFireFox2 = require('./_isFireFox');
+
+var _isFireFox3 = _interopRequireDefault(_isFireFox2);
 
 var _randomStr2 = require('./_randomStr');
 
@@ -130,9 +146,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var pluck = exports.pluck = _pluck3.default;
 var toRGB = exports.toRGB = _toRGB3.default;
 var isDate = exports.isDate = _isDate3.default;
+var isEdge = exports.isEdge = _isEdge3.default;
 var isEnter = exports.isEnter = _isEnter3.default;
 var isAscii = exports.isAscii = _isAscii3.default;
 var getDiff = exports.getDiff = _getDiff3.default;
+var isChrome = exports.isChrome = _isChrome3.default;
+var isSafari = exports.isSafari = _isSafari3.default;
 var xDaysAgo = exports.xDaysAgo = _xDaysAgo3.default;
 var isNumber = exports.isNumber = _isNumber3.default;
 var dateList = exports.dateList = _dateList3.default;
@@ -140,6 +159,7 @@ var hasValue = exports.hasValue = _hasValue3.default;
 var xWeeksAgo = exports.xWeeksAgo = _xWeeksAgo3.default;
 var xYearsAgo = exports.xYearsAgo = _xYearsAgo3.default;
 var randomStr = exports.randomStr = _randomStr3.default;
+var isFireFox = exports.isFireFox = _isFireFox3.default;
 var currentUrl = exports.currentUrl = _currentUrl3.default;
 var autoScroll = exports.autoScroll = _autoScroll3.default;
 var toColorCode = exports.toColorCode = _toColorCode3.default;
