@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.isFireFox = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.hasValue = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isSafari = exports.isChrome = exports.getDiff = exports.isAscii = exports.isEnter = exports.isEdge = exports.isDate = exports.toRGB = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isTabletOrMobile = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.isFireFox = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.hasValue = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isSafari = exports.isChrome = exports.getDiff = exports.isAscii = exports.isEnter = exports.isEdge = exports.isDate = exports.toRGB = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
@@ -137,6 +137,10 @@ var _gradationColors2 = require('./_gradationColors');
 
 var _gradationColors3 = _interopRequireDefault(_gradationColors2);
 
+var _isTabletOrMobile2 = require('./_isTabletOrMobile');
+
+var _isTabletOrMobile3 = _interopRequireDefault(_isTabletOrMobile2);
+
 var _containsSpecialChar2 = require('./_containsSpecialChar');
 
 var _containsSpecialChar3 = _interopRequireDefault(_containsSpecialChar2);
@@ -176,4 +180,5 @@ var containsEmoji = exports.containsEmoji = _containsEmoji3.default;
 var containsSpace = exports.containsSpace = _containsSpace3.default;
 var gradationColors = exports.gradationColors = _gradationColors3.default;
 var isNotEmptyArray = exports.isNotEmptyArray = _isNotEmptyArray3.default;
+var isTabletOrMobile = exports.isTabletOrMobile = _isTabletOrMobile3.default;
 var containsSpecialChar = exports.containsSpecialChar = _containsSpecialChar3.default;
