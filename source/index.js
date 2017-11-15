@@ -31,6 +31,7 @@ import _containsEmoji   from './_containsEmoji';
 import _containsSpace   from './_containsSpace';
 import _isNotEmptyArray from './_isNotEmptyArray';
 import _gradationColors from './_gradationColors';
+import _isTabletOrMobile    from './_isTabletOrMobile';
 import _containsSpecialChar from './_containsSpecialChar';
 
 export const pluck      = _pluck;
@@ -66,4 +67,5 @@ export const containsEmoji   = _containsEmoji;
 export const containsSpace   = _containsSpace;
 export const gradationColors = _gradationColors;
 export const isNotEmptyArray = _isNotEmptyArray;
+export const isTabletOrMobile    = _isTabletOrMobile;
 export const containsSpecialChar = _containsSpecialChar;
