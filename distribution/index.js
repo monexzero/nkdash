@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.containsSpecialChar = exports.isTabletOrMobile = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.isFireFox = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.hasValue = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isSafari = exports.isChrome = exports.getDiff = exports.isAscii = exports.isEnter = exports.isEdge = exports.isDate = exports.toRGB = exports.pluck = undefined;
+exports.containsSpecialChar = exports.isTabletOrMobile = exports.isNotEmptyArray = exports.gradationColors = exports.containsSpace = exports.containsEmoji = exports.isNotEmptyStr = exports.containsMark = exports.isEmptyArray = exports.isValidEmail = exports.isFullWidth = exports.moneyFormat = exports.ellipsisStr = exports.ellipsisInt = exports.compareDeep = exports.toColorCode = exports.autoScroll = exports.currentUrl = exports.isWindows = exports.isFireFox = exports.randomStr = exports.xYearsAgo = exports.xWeeksAgo = exports.hasValue = exports.dateList = exports.isNumber = exports.xDaysAgo = exports.isSafari = exports.isChrome = exports.getDiff = exports.isAscii = exports.isEnter = exports.isEdge = exports.isDate = exports.toRGB = exports.pluck = undefined;
 
 var _pluck2 = require('./_pluck');
 
@@ -72,6 +72,10 @@ var _xWeeksAgo3 = _interopRequireDefault(_xWeeksAgo2);
 var _xYearsAgo2 = require('./_xYearsAgo');
 
 var _xYearsAgo3 = _interopRequireDefault(_xYearsAgo2);
+
+var _isWindows2 = require('./_isWindows');
+
+var _isWindows3 = _interopRequireDefault(_isWindows2);
 
 var _currentUrl2 = require('./_currentUrl');
 
@@ -164,6 +168,7 @@ var xWeeksAgo = exports.xWeeksAgo = _xWeeksAgo3.default;
 var xYearsAgo = exports.xYearsAgo = _xYearsAgo3.default;
 var randomStr = exports.randomStr = _randomStr3.default;
 var isFireFox = exports.isFireFox = _isFireFox3.default;
+var isWindows = exports.isWindows = _isWindows3.default;
 var currentUrl = exports.currentUrl = _currentUrl3.default;
 var autoScroll = exports.autoScroll = _autoScroll3.default;
 var toColorCode = exports.toColorCode = _toColorCode3.default;
