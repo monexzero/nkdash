@@ -1,4 +1,4 @@
-import Scroll from 'react-scroll';
+import {animateScroll} from 'react-scroll';
 
 export default function _autoScroll(selector, duration=1200) {
   const target   = document.querySelector(selector);
@@ -7,6 +7,5 @@ export default function _autoScroll(selector, duration=1200) {
   }
 
   const position = target.offsetTop;
-  const scroll = Scroll.animateScroll;
-  scroll.scrollTo(position, {smooth: true, duration});
+  animateScroll.scrollTo(position, {smooth: true, duration});
 }
