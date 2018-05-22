@@ -131,14 +131,6 @@ console.log(currentUrl()); // => https://localhost/hoge/fuga
 console.log(currentUrl(false)); // => https://localhost/hoge/fuga?hoge=1
 ```
 
-* autoScroll
-
-```
-import {autoscroll} from 'nkdash';
-
-autoscroll('#top') // => autoscroll to #top element
-```
-
 * compareDeep
 
 ```
