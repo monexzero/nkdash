@@ -81,10 +81,6 @@ var _currentUrl2 = require('./_currentUrl');
 
 var _currentUrl3 = _interopRequireDefault(_currentUrl2);
 
-var _autoScroll2 = require('./_autoScroll');
-
-var _autoScroll3 = _interopRequireDefault(_autoScroll2);
-
 var _compareDeep2 = require('./_compareDeep');
 
 var _compareDeep3 = _interopRequireDefault(_compareDeep2);
@@ -170,7 +166,6 @@ var randomStr = exports.randomStr = _randomStr3.default;
 var isFireFox = exports.isFireFox = _isFireFox3.default;
 var isWindows = exports.isWindows = _isWindows3.default;
 var currentUrl = exports.currentUrl = _currentUrl3.default;
-var autoScroll = exports.autoScroll = _autoScroll3.default;
 var toColorCode = exports.toColorCode = _toColorCode3.default;
 var compareDeep = exports.compareDeep = _compareDeep3.default;
 var ellipsisInt = exports.ellipsisInt = _ellipsisInt3.default;
